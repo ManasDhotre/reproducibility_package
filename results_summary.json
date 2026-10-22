@@ -1,0 +1,45 @@
+{
+  "sizes": {
+    "Diabetes (PIMA)": {
+      "n": 768,
+      "pos": 268,
+      "pos_rate": 0.3489583333333333,
+      "features": 8
+    },
+    "Heart (UCI)": {
+      "n": 303,
+      "pos": 138,
+      "pos_rate": 0.45544554455445546,
+      "features": 13
+    },
+    "Breast (WDBC)": {
+      "n": 569,
+      "pos": 212,
+      "pos_rate": 0.37258347978910367,
+      "features": 30
+    }
+  },
+  "agreement_min": 1.0,
+  "agreement_mean": 1.0,
+  "n_gateway_checks": 900,
+  "platt": {
+    "ece_raw_overall": 0.09321031711700013,
+    "ece_n_overall": 0.08031641013326608,
+    "gap_raw_overall": 0.057860548818544175,
+    "gap_n_overall": 0.033393819811392444,
+    "gap_raw_spread": 0.0444600719609161,
+    "gap_n_spread": 0.012202245899910423,
+    "configs_improved": 6,
+    "configs": 9
+  },
+  "isotonic": {
+    "ece_raw_overall": 0.09321031711700013,
+    "ece_n_overall": 0.07095187977303413,
+    "gap_raw_overall": 0.057860548818544175,
+    "gap_n_overall": 0.034164375411055575,
+    "gap_raw_spread": 0.0444600719609161,
+    "gap_n_spread": 0.015038387471295553,
+    "configs_improved": 8,
+    "configs": 9
+  }
+}
